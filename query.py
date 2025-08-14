@@ -56,7 +56,7 @@ def main():
     client = BedrockRetrieveAndGenerate(region_name='us-east-1')
 
     # Replace with your actual knowledge base ID and model ARN
-    knowledge_base_id = "2XEBWENGEO"
+    knowledge_base_id = ""
     model_arn = "amazon.nova-pro-v1:0"
 
     # Query
