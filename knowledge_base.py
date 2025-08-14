@@ -3,10 +3,10 @@ import boto3
 # Configuration
 region = "us-east-1"
 knowledge_base_name = "my-opensearch-kb-v2"
-s3_bucket_arn = "arn:aws:s3:::new-data-region"
-s3_data_prefix = "employee_attendance_realistic.csv"
-role_arn = "arn:aws:iam::248189934150:role/mytraditionalkb-role"
-opensearch_collection_arn = "arn:aws:aoss:us-east-1:248189934150:collection/se9rm8dn34oa5b82lrw2"
+s3_bucket_arn = ""
+s3_data_prefix = "document.csv"
+role_arn = ""
+opensearch_collection_arn = ""
 opensearch_vector_index_name = "mytraditionalkb-idx"
 embedding_model_arn = "amazon.nova-pro-v1:0"
 
